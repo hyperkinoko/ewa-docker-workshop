@@ -32,7 +32,7 @@ docker run hello-world
 docker run -d -p 8081:80 nginx:latest
 ```
 
-https://qiita.com/noralife/items/18301143c20cc5172c56
+[よく使うDockerコマンド](https://qiita.com/noralife/items/18301143c20cc5172c56)
 
 nginxの最新イメージを拾ってきて、バックグラウンド実行。  
 ホスト側のポート8081番とnginxの80番ポートを連結させる。
@@ -44,8 +44,10 @@ nginxの最新イメージを拾ってきて、バックグラウンド実行。
 
 nginxのイメージを自分で作ってみる
 
-https://qiita.com/rspepe/items/c0c0119032ccc79ff7a1
-https://qiita.com/YumaInaura/items/1647e509f83462a37494
+[お気楽にnginxのDockerイメージを作ってみる](https://qiita.com/rspepe/items/c0c0119032ccc79ff7a1)
+
+[Dockerfile の ADD と COPY の違いを結論から書く](https://qiita.com/YumaInaura/items/1647e509f83462a37494)
+
 
 イメージのビルド。
 コンテナの立ち上げ。
